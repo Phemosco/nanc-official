@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Quotes</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="nanc, national Association of nigerian Comrades, activist" name="keywords">
+    <meta content="National Association of nigerian Comrades" name="description">
+    <meta content="nanc" name="author">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon-icon.jfif" sizes="20x20"/>
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+
+     <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+<style>
+
+body {
+    font-family: Verdana, sans-serif; 
+    margin:0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bb6969;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+/* Quotes styling */
+.row {
+  margin: 0px 0px;
+}
+/* quote start */
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  margin-right: 18px;
+  margin-left: 18px;
+  
+  background: white;
+  border: #ddd solid;
+ 
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 0px;
+  font-family: robotoregular,Arial,Helvetica,sans-serif;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  img.position-absolute{
+    display: none;
+  }
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 4px;
+    text-align:center;
+    font-size: 100%;
+    
+  }
+
+  img.position-absolute{
+    display: none;
+  }
+
+  
+}
+cite{
+  font-size: 100%;
+ 
+  color: #000000;
+  font-family: cursive;
+  font-weight: 600;
+
+}
+
+em{
+  font-style: italic;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+div.youknow{
+  text-transform: capitalize;
+  text-align: center;
+  color: #000000;
+  margin-top: 10%;
+}
+img{
+  width: 45%;
+  align-items: center;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+figcaption {
+    color: #767676;
+    font-size: .87rem;
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+       <!-- Topbar Start -->
+    <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                  <a class="text-body py-2 pe-3 border-end" href="questionNote.html" target="_blank;"><small>FAQs</small></a>
+                    <a class="text-body py-2 px-3 border-end" href=""><small>Privacy</small></a>
+                    <a class="text-body py-2 px-3 border-end" href=""><small>Policy</small></a>
+                    <a class="text-body py-2 ps-3" href=""><small>Career</small></a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+                <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                    <div class="me-3 pe-3 border-end py-2">
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>nancprogressive@gmail.com</p>
+                      
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+234 8035809568</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+
+     
+     <a href="index.html" class="navbar-brand p-0">
+      <img src="images/favicon-icon.jfif" class="logo"><b id=logoname>NATIONAL ASSOCIATION OF NIGERIAN COMRADES</b></img>
+        </a>
+    
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 me-n3">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="constitution.html" class="nav-item nav-link">About us</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="blog.html" class="dropdown-item">News</a>
+                        <a href="membership.html" class="dropdown-item">Membership</a>
+                        <a href="feature.html" class="dropdown-item">our importance</a>
+                        <a href="quote.html" class="dropdown-item active">Quote Forum</a>
+                        <a href="our-teams.html" class="dropdown-item">Our Team</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    
+
+    <!-- start slideshow -->
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+          <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+          <p class="author">- John Keats</p>
+        </div>
+        
+        <div class="mySlides">
+          <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+          <p class="author">- Ernest Hemingway</p>
+        </div>
+        
+        <div class="mySlides">
+          <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+          <p class="author">- Thomas A. Edison</p>
+        </div>
+
+        <div class="mySlides">
+            <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+            <p class="author">- Thomas A. Edison</p>
+        </div>
+
+        <div class="mySlides">
+          <q>he who feeds you, controls you.</q>
+          <p class="author">- Thomas Sankara</p>
+      </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <!-- end of slideshow -->
+
+
+        <!-- START OF QUOTES -->
+        <div class="row">
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org.uk/webfm_send/1855" alt="Martin Luther King" style="width:100%">
+                <figcaption>Credit: ©Getty Images </figcaption><br>
+
+                <p>“Injustice anywhere is a threat to justice everywhere.”<br>
+                  <cite><em>— Martin Luther King, African-American civil rights activist</em></cite>
+                </p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org.uk/files/styles/poster/s3/mandela.jpg?VersionId=sqWZoefQidfscf.FMZkDbU7xjRF37QL9&itok=4I2OydiB" alt="Nelson Mandela" style="width:100%">
+                <figcaption>Credit: ©Jurgen Schadeberg www.jurgenschadeberg.com </figcaption><br>
+
+                <p>“To deny people their human rights is to challenge their very humanity.”<br>
+                  <cite><em>— Nelson Mandela, South African civil rights activist</em></cite>
+                </p>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org.uk/webfm_send/1849" alt="Desmond Tutu" style="width:100%">
+                <figcaption>Credit: ©© Amnesty International Norway </figcaption><br>
+
+                <p>“It means a great deal to those who are oppressed to know that they are not alone. Never let anyone tell you that what you are doing is insignificant.”<br>
+                  <cite><em>— Desmond Tutu, South African civil rights activist</em></cite>
+                </p>
+              </div>
+            </div>
+
+            
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org.uk/webfm_send/1837" alt="Clarence Darrow" style="width:100%">
+            
+                <p>“You can only protect your liberties in this world by protecting the other man's freedom. You can only be free if I am free.”<br>
+                  <cite><em>— Clarence Darrow, American lawyer, member of the ACLU and death penalty opponent</em></cite>
+                </p>
+              </div>
+            </div>
+
+            
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org.uk/webfm_send/1847" alt="Dalai Lama" style="width:100%">
+                <figcaption>Credit: ©Amnesty International / Ilya van Marie </figcaption><br>
+
+                <p>“Peace can only last where human rights are respected, where the people are fed, and where individuals and nations are free.”<br>
+                  <cite><em>— 14th Dalai Lama</em></cite>
+                </p>
+              </div>
+            </div>
+
+            
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org.uk/webfm_send/1851" alt="Jean Dominique" style="width:100%">
+                <figcaption>Credit: ©Dominique Francik Simon </figcaption><br>
+
+                <p>“You cannot kill the truth. You cannot kill justice. You cannot kill what we are fighting for.”<br>
+                  <cite><em>— Jean Dominique, Haitian democracy activist</em></cite>
+                </p>
+              </div>
+            </div>
+
+            
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org.uk/webfm_send/1859" alt="A. Philip Randolph" style="width:100%">
+                <figcaption>Credit: ©Getty Images </figcaption><br>
+
+                <p>“Freedom is never granted; it is won. Justice is never given; it is exacted.”<br>
+                  <cite><em>— A. Philip Randolph, African-American civil rights campaigner</em></cite>
+                </p>
+              </div>
+            </div>
+
+            
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org.uk/webfm_send/1843" alt="Bob Marley" style="width:100%">
+                <figcaption>Credit: ©Cover / Getty Images </figcaption><br>
+
+                <p>“Get up, stand up, Stand up for your rights. Get up, stand up, Don't give up the fight.”<br>
+                  <cite><em>— Bob Marley, Jamaican singer</em></cite>
+                </p>
+              </div>
+            </div>
+
+            
+            <div class="column">
+              <div class="content">
+                <img src="https://i0.wp.com/globalhumanrights.org/wp-content/uploads/2022/05/Untitled-design-2022-05-31T160211.837.png?resize=300%2C142&ssl=1" alt="Martin Luther" style="width:100%">
+                <figcaption>Credit: ©Dr. Martin Luther King, Jr. speaking at a press conference held at Shaw University in Raleigh, NC in April of 1960. </figcaption><br>
+
+                <p>“A right delayed is a right denied.”<br>
+                  <cite><em>— Dr. Martin Luther King, Jr</em></cite>
+                </p>
+              </div>
+            </div>
+
+            
+            <div class="column">
+              <div class="content">
+                <img src="https://i0.wp.com/globalhumanrights.org/wp-content/uploads/2022/05/Hassan_Kenya_1-scaled.jpg?resize=300%2C200&ssl=1" alt="Hassan Abdille" style="width:100%">
+                <figcaption></figcaption><br>
+
+                <p>“Human rights mean no one sleeps hungry.”<br>
+                  <cite><em>— Hassan Abdille, human rights activist (formerly with MUHURI), Kenya</em></cite>
+                </p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="content">
+                <img src="https://www.amnesty.org/en/wp-content/uploads/2021/06/monicah.jpg" alt="Monicah Njoroge" style="width:100%">
+                    <figcaption>Credit: ©Amnesty International </figcaption><br>
+
+                <p>“I never thought I’d be talking about police brutality and standing up for human rights. You never know what people are going through until it happens to you.”<br>
+                  <cite><em>— Monicah Njoroge, Kenyan civil rights activist whose brother Evans was murdered after taking part in a peaceful protest</em></cite>
+                </p>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="content">
+                <img src="https://media.licdn.com/dms/image/C5603AQF-L4Vmb4M4Kg/profile-displayphoto-shrink_800_800/0/1516989083788?e=2147483647&v=beta&t=Fy-9VOUbAL5ZStORoYvZHSy2AMzzqyjbojbSYNc0ZWg" alt="Rachel Bach" style="width:95%">
+                <figcaption></figcaption><br>
+
+                <p>“Never shame your comrades by letting their death get you killed.”<br>
+                  <cite><em>— Rachel Bach, Fortune's Pawn</em></cite>
+                </p>
+              </div>
+            </div>
+          <!-- END QUOTE -->
+
+
+            
+              
+              <div class="youknow">
+                  <img src="images/do-you-know.png" alt="DO YOU KNOW">
+                <h1>DO YOU KNOW?</h1> 
+              </div>
+              
+            <hr>
+                <div class="column">
+                  <div class="content">
+                    <h3>Martin Luther King Jr</h3>
+                    <p><q><cite>A right delayed is a right denied.</q></cite><br>
+                    <cite><em>--------Martin Luther King Jr.</em></cite>
+                  </p>
+          
+                    <p>In South Africa, a system of racial segregation called apartheid was in place from 1948 to the early 1990s. Nelson Mandela led the African National Congress in fighting this system of injustice and was consequently imprisoned for nearly thirty years. When he was finally released, efforts to end apartheid continued, leading to the country’s first multiracial general election. He went on to serve as South Africa’s 
+                      first Black head of state and is still considered one of history’s most significant human rights activists.</p>
+                      
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="content">
+                    <h3>Elie Wiesel</h3>
+                    <p><q><cite>We must take sides. Neutrality helps the oppressor, never the victim. Silence encourages the tormentor, never the tormented. Sometimes we must interfere. 
+                      When human lives are endangered, when human dignity is in jeopardy, national borders and sensitivities become irrelevant.</cite></q><br>
+                      <cite> <em>-------Elie Wiesel.</em></cite>
+                    </p>
+                     
+                      <p>Elie Wiesel was a Holocaust survivor who spent his life advocating for human rights. By the time of his death in 2016, he had written fifty-seven books, some of which drew directly from his experiences as a Jewish prisoner in concentration camps. 
+                        He was awarded the Nobel Peace Prize in 1986 and this quote is from his acceptance 
+                        speech in which he expressed his belief in the importance of standing up for human rights, regardless of where violations occur and to whom.</p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="content">
+                    <h3>Greta Thunberg</h3>
+                    <p><q><cite>Activism works. So what I’m telling you to do now is to act. Because no one is too small to make a difference</cite></q><br>
+                      <cite> <em>-------Greta Thunberg</em></cite>
+                    </p>
+                    
+                      <p>
+                        One of the youngest and most famous activists in the world today, Greta Thunberg’s blunt and direct challenges to world leaders to tackle climate change have made her an icon for campaigners against our persistent exploitation of the natural world. With the displacement of communities due to climate change already becoming an issue, it’s not hard to argue that the climate crisis is a human 
+                        rights issue as much as an environmental one. Greta’s inspiring example serves to give us hope that by speaking out, we can incite change.
+                      </p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="content">
+                    <h3>Audre Lorde</h3>
+                    <p><q><cite>My silence has not protected me. Your silence will not protect you.</cite></q><br>
+                      <cite> <em>-------Audre Lorde</em></cite>
+                    </p>
+                     
+                      <p>
+                        Audre Lorde was an American writer and social justice activist. Describing herself as “Black, lesbian, mother, 
+                        warrior, poet,” her poetry and prose communicated the powerful outrage she felt at seeing the countless civil and 
+                        social injustices in the world around her. Through writing, campaigning and performance, Lorde dedicated her life to, in her own words,  
+                        “confronting and addressing injustices of racism, sexism, classism, and homophobia”.
+                      </p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="content">
+                    <h3>Hannah Arendt</h3>
+                    <p><q><cite>The sad truth is that most evil is done by people who never make up their minds to be either good or evil.</cite></q><br>
+                      <cite> <em>-------Hannah Arendt</em></cite>
+                    </p>
+                     
+                      <p>
+                        Hannah Arendt was a German philosopher who wrote extensively on the subject of totalitarianism, power and the nature of evil. 
+                        Being a Jewish woman living in Germany during Hitler’s rise to power, she was forced to flee her home, eventually settling 
+                        in New York. The above quote comes from her most famous work about the trial of Adolf Eichmann, one of the key organisers 
+                        of the Holocaust. She coined the phrase ‘the banality of evil’ to describe what she saw in Eichmann as a combination of ambition 
+                        and complacency, rather than what we would typically think of as pure evil or fanaticism.
+                      </p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <div class="content">
+                    <h3>Angelina Grimke</h3>
+                    <p><q><cite>I recognise no rights but human rights - I know nothing of men’s rights and women’s rights.</cite></q><br>
+                      <cite> <em>-------Angelina Grimke</em></cite>
+                    </p>
+                     
+                      <p>
+                        Angelina Grimke was an American political activist during the 19th century. She was a prominent women’s rights advocate,
+                         a supporter of women’s suffrage and, perhaps most remarkably, one of only two White female abolitionists active in the 
+                         American South before the abolition of slavery - the other was her sister. A truly inspirational figure that only in 
+                         recent years has started to receive the recognition she deserves.
+                      </p>
+                  </div>
+                </div>
+
+                
+
+
+    <!-- Quote Start -->
+    <div class="container-fluid bg-secondary px-0">
+        <div class="row g-0">
+            <div class="col-lg-6 py-6 px-5">
+                <h1 class="display-5 mb-4">Request A Free Quote</h1>
+                <p class="mb-4">Please fill the below form to receive free quotes and Consultancy via mail</p>
+                <form>
+                    <div class="row gx-3">
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="form-floating-1" placeholder="John Doe">
+                                <label for="form-floating-1">Full Name</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="form-floating-2" placeholder="name@example.com">
+                                <label for="form-floating-2">Email address</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="floatingSelect" aria-label="Financial Consultancy">
+                                    <option selected>Financial Consultancy</option>
+                                    <option value="1">Strategy Consultancy</option>
+                                    <option value="2">Membership</option>
+                                    <option value="2">Quotes</option>
+                                </select>
+                                <label for="floatingSelect">Select A Service</label>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <button class="btn btn-primary w-100 h-100" type="submit">Request A Quote</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6" style="min-height: 100px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100" src="images/quote.jpg" style="width: 40%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+    
+
+   <!-- Footer Start -->
+   
+<div class="container-fluid bg-dark text-secondary p-5">
+    <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+            <h3 class="text-white mb-4">Quick Links</h3>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-secondary mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                <a class="text-secondary mb-2" href="constitution.html"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                <a class="text-secondary mb-2" href="our-teams.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Teams</a>
+                <a class="text-secondary mb-2" href="membership.html"><i class="bi bi-arrow-right text-primary me-2"></i>Membership</a>
+                <a class="text-secondary" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <h3 class="text-white mb-4">Popular Links</h3>
+            <div class="d-flex flex-column justify-content-start">
+                <a class="text-secondary mb-2" href="index.html"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                <a class="text-secondary mb-2" href="service.html"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                <a class="text-secondary mb-2" href="blog.html"><i class="bi bi-arrow-right text-primary me-2"></i>Latest News Post</a>
+                <a class="text-secondary" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <h3 class="text-white mb-4">Get In Touch</h3>
+            <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Suit D02, Kenuj 02 Mall, Plot 1248,<br>Kaura District, Abuja, FCT Nigeria</p>
+            <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>nancprogressive@gmail.com</p>
+            <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>08035809568</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <h3 class="text-white mb-4">Follow Us</h3>
+            <div class="d-flex">
+                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://twitter.com/NANCPRESIDENT"><i class="fab fa-twitter fw-normal"></i></a>
+                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.facebook.com/profile.php?id=100063461055137"><i class="fab fa-facebook-f fw-normal"></i></a>
+                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="https://wa.me/2348103005241"><i class="fab fa-whatsapp fw-normal"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+    <p class="m-0">&copy; 2023 <a class="text-secondary border-bottom" href="index.html">National Association of Nigeria Comrade</a>.<br>
+         All Rights Reserved. Designed by <a class="text-secondary border-bottom" href="">Phemosco Enterprises</a></p>
+</div>
+<!-- Footer End -->
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js"></script>
+
+    <!-- quotes slides Javascript -->
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+</body>
+
+</html>

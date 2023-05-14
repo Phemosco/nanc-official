@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>Nanc-FAQ</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="nanc, national Association of nigeria, activist" name="keywords">
+    <meta content="National Association of nigeria Comrade" name="description">
+    
+   
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon-icon.jfif" sizes="20x20"/>
+<style>
+  body{
+    background-color:rgb(23, 23, 26);
+  }
+  .Header{
+    color: #fff;
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<h2 class="Header">FAQ'S</h2>
+<p class="Header">Below is the most frequent questions and answers that you might find!</p>
+<button class="accordion">what is NANC?</button>
+<div class="panel">
+  <p>NANC is National Association Of Nigeria Comrades</p>
+</div>
+
+<button class="accordion">When was NANC founded and who founded the association?</button>
+<div class="panel">
+  <p>National Association of Nigerian Comrade (NANC) was founded in the year 2010 June 2nd by Comrade Ogunolu Samsideen Opeyemi 
+    a.k.a peace maker then he was a final year student.</p>
+</div>
+
+<button class="accordion">What is the benefits of Nanc?</button>
+<div class="panel">
+  <p>NANC was founded for the benefit of entire Nigerians by bringing together human right activist and social crusaders to fight in one accord for the betterment of our Nations’. Also to promote the interest of Nigerian Youths and Nigerian Students for the benefit of our generation.
+  </p>
+</div>
+
+<button class="accordion">What are the duties of NANC in the society?</button>
+<div class="panel">
+  <p>
+    <ui>
+      <li>To Embark on Youth Empowerment Initiatives via Award of Scholarships, Job placements and Skills acquisition.</li>
+      <li>o provide Counseling to Nigerian Youths on Challenges in Academics, Career, Relationship etc., and General Life Issues 
+        like Rape, Addiction, Sexual Harassment, among others.</li>
+      <li>To Organize Seminars, Symposiums, Talk Shows and lectures through viable media with a view to Educating 
+        the Youths about the dangers of societal Ills.</li>
+      <li>To organize Rallies and to Employ and Utilize the Social/Mass Media in the Promotion of the Image of Nigeria all around the world, Campaign against Corrupt Practices In the System, 
+        bring Pressing Rural Communities and Grass Root Issues to the Forefront and Present them before the Government for Consideration, while we Consistently remind all Elected 
+        Public Office Holders those promises they made during their Campaigns and Manifestos.</li>
+      <li>To generally and always Promote Peace, Love, Unity and Patriotism thereby Discouraging Tribalism, Ethnicity, Nepotism and Corruption.</li>
+    </ui>
+  </p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
