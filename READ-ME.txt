@@ -1,2 +1,5 @@
+<<<<<<< HEAD
 # National Association of Nigeria comrades
 This is my main offical page for NANC Nigeria. The frame work used are html, css and javascript
+=======
+
